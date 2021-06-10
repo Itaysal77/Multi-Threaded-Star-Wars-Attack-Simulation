@@ -2,13 +2,20 @@
 Project 2/3 in course Systems Programming. Main purpose is to create a system of simulating multi threaded Star Wars attack.
 The projects works in a few different attacks,where an attacl relies on past stages using callbacks.
 Attacking in the project was implemented by resources allocation and handle the synchronization of the resources allocation.
+
 Input: Json file which contains: 
 -Attacks array description: which resources (serial number) we need for the specific attack (resources- Ewoks), duration of the attack.
--Duration of the next stages after finishing the main attack (as described above). To be more specific, "R2D2":<duration> "Lando":<duration>.
+
+-Duration of the next stages after finishing the main attack (as described above). To be more specific, "R2D2":<<duration>> "Lando":<<duration>>.
+  
 -Number of resources (Ewoks- the number also points at the serial numbers).
+  
 Output: Json file which contains:
+  
 -Total attacks quantity
+  
 -Time stamp  which each thread terminated.
+  
 
 How to Operate:
 1)run: mvn compile
