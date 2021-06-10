@@ -20,6 +20,6 @@ Output: Json file which contains:
 How to Operate:
 1)run: mvn compile
   
-2)(Optional) mvn test (Unit tests impelmented to check the correctness of the code)
+2)(Optional) mvn test (Unit tests implemented to check the correctness of the code)
   
 3)mvn exec:java -Dexec.mainClass="bgu.spl.mics.application.Main" -Dexec.args="./input1.json(or 2/3/4/5) ./output.json "
