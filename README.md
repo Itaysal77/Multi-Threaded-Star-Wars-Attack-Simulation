@@ -6,7 +6,7 @@ Attacking in the project was implemented by resources allocation and handle the 
 Input: Json file which contains: 
 -Attacks array description: which resources (serial number) we need for the specific attack (resources- Ewoks), duration of the attack.
 
--Duration of the next stages after finishing the main attack (as described above). To be more specific, "R2D2":<<duration>> "Lando":<<duration>>.
+-Duration of the next stages after finishing the main attack (as described above). To be more specific, "R2D2":(duration) "Lando":(duration).
   
 -Number of resources (Ewoks- the number also points at the serial numbers).
   
