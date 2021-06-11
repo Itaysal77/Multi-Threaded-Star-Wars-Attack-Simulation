@@ -1,6 +1,6 @@
 # Multi-Threaded-Star-Wars-Attack-Simulation
 Project 2/3 in course Systems Programming. Main purpose is to create a system of simulating multi threaded Star Wars attack.
-The projects works in a few different attacks,where an attacl relies on past stages using callbacks.
+The project works in a few different stages of attacks,where an attack relies on past stages using callbacks.
 Attacking in the project was implemented by resources allocation and handle the synchronization of the resources allocation.
 
 Input: Json file which contains: 
